@@ -2,4 +2,4 @@
 
 The software pack to support the database preservation workshop to be presented in iPRES'16
 
-To access the software pack, visit (link not yet available)
+For more information refer to [the workshop guide](https://github.com/eark-project/ipres16-db-preservation-pack/raw/master/Workshopguide.pdf).
