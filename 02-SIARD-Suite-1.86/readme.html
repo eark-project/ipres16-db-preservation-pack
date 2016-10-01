@@ -1,0 +1,166 @@
+<html>
+  <head>
+    <title>SIARD Suite: readme.html</title>
+  </head>
+  <body>
+    <h1>SIARD Suite: readme.html</h1>
+    <p>Please refer to the <a href="doc/SIARD Manual_en.pdf">User's manual</a>.</p>
+    <p>Bitte lesen Sie das <a href="doc/SIARD Manual_de.pdf">Benutzerhandbuch</a>.</p>
+    <p>Consultez le <a href="doc/SIARD Manual_fr.pdf">Manuel d'utilisation</a> s.v.p.</p>
+    <p>Consulta il <a href="doc/SIARD Manual_it.pdf">Manuale d'utilizzazione</a> per favore.</p>
+    <h2>Release 1.86</h2>
+    <p>In Release 1.86 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 423: Type determination for Oracle NUMBER with NULL as DECIMALS corrected to DECIMAL(38,16).</li> 
+    </ul>
+    <h2>Release 1.85</h2>
+    <p>In Release 1.85 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 424: Column meta data problem corrected for table names which contain a period.</li>
+      <li>Bug 423: Type determination for Oracle NUMBER with NULL as DECIMALS corrected to DECIMAL(22,16).</li> 
+    </ul>
+    <p>In Release 1.84 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 421: Handling of loading of XML data to SQL Server has been corrected (NOT NULL condition is selectively ignored on upload).</li>
+      <li>Bug 422: Download of MS Access data with empty user name now leads to an error dialog.</li>
+      <li>Bug 423: XML error on download for small numbers (less than 0.00001) has been corrected (avoidance of "scientific" notation for xs:decimal fields).</li> 
+    </ul>
+    <h2>Release 1.83</h2>
+    <p>In Release 1.83 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 418: The changes of Release 1.81 are partially reverted: Upload of VARCHAR(n) to MySQL does not use the type TEXT by default. If total row size becomes a problem, the experienced user will have to find his own work-around.</li>
+    </ul>
+    <h2>Release 1.82</h2>
+    <p>In Release 1.82 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 416: Upload of CLOBs with apostrophes to MySQL has been corrected.</li>
+    </ul>
+    <h2>Release 1.81</h2>
+    <p>In Release 1.81 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 413: Upload of dates to SQL Server has been changed from smalldatetime to datetime2.</li>
+      <li>Bug 414: Upload of varchars to MySQL has been changed from varchar(n) to text to accommodate MySQL limitations of total row size.</li>
+    </ul>
+    <h2>Release 1.80</h2>
+    <p>In Release 1.80 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 411: Handling of loading XML data to SQL Server has been corrected.</li>
+    </ul>
+    <h2>Release 1.79</h2>
+    <p>In Release 1.79 the following changes are implemented:</p>
+    <ul>
+      <li>SQL data type XML must not be stored as it is not conformant to SIARD Format 1.0 (SQL:1999).</li>
+    </ul>
+    <h2>Release 1.78</h2>
+    <p>In Release 1.78 the following changes are implemented:</p>
+    <ul>
+      <li>Bug: Upload of values '' into NOT NULL columns in Oracle now drops the NOT NULL constraint. Changes of release 1.71 addressing the same problem on download have been reverted.</li>
+    </ul>
+    <h2>Release 1.77</h2>
+    <p>In Release 1.77 the following changes are implemented:</p>
+    <ul>
+      <li>Bug: 408: Data types "varchar(max)" and "varbinary(max)" on SQL Server are now converted to CLOB and BLOB on download.</li>
+      <li>Bug: 408: "varchar(n)" and "varbinary(n)" are converted to "text" and "binary" on upload to SQL Server whenever n &gt; 8000.</li>
+    </ul>
+    <h2>Release 1.76</h2>
+    <p>In Release 1.76 the following changes are implemented:</p>
+    <ul>
+      <li>Dates and timestamps outside the SQL:1999 range (1.1.0001 - 31.12.9999 are converted to NULL on download and upload.</li>
+      <li>Missing documentation has been added again.</li>
+    </ul>
+    <h2>Release 1.75</h2>
+    <p>In Release 1.75 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 403: Schema mapping for upload to MySQL reintroduced and improved.</li>
+      <li>Bug 404: Upgraded to EnterAccess (1.0.61) with corrected quoting of default values and new support for identifiers that are SQL keywords.</li>
+    </ul>
+    <h2>Release 1.74</h2>
+    <p>In Release 1.74 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 402: MS Access identifiers containing a operators (like "+") are now handled correctly in the EnterAccess driver.</li>
+      <li>Bug 402: A warning is output to stderr, if an MS Access query contains invalid SQL, but archving continues.</li>
+    </ul>
+    <h2>Release 1.73</h2>
+    <p>In Release 1.73 the following changes are implemented:</p>
+    <ul>
+      <li>JAVA 1.6 compatibility restored.</li>
+      <li>Extensive testing and fixing of many small data type problems.</li>
+      <li>Lower-case table-names problem with MySQL corrected.</li>
+      <li>Problem reading large XML values from SQL Server corrected.</li>
+      <li>Updated documentation in English and German</li>
+      <li>Removal of ODBC option, if runtime JAVA version is 1.8 or higher</li>
+    </ul>
+    <h2>Release 1.72</h2>
+    <p>In Release 1.72 the following changes are implemented:</p>
+    <ul>
+      <li>For accessing MS Access files (ACCDB, MDB 2000-2012) a new "pure JAVA" JDBC driver EnterAccess is offered as an alternative to the JDBC-ODBC bridge, which will not be available any more under JAVA 1.8.</li>
+    </ul>
+    <h2>Release 1.71</h2>
+    <p>In Release 1.71 the following changes are implemented:</p>
+    <ul>
+      <li>MySQL CLOBs with NOT NULL condition are changed to NULLABLE on download, because the can contain empty strings (EMPTY_CLOB) and then would not be able to be uploaded to a different database system.</li>
+    </ul>
+    <h2>Release 1.70</h2>
+    <p>In Release 1.70 the following changes are implemented:</p>
+    <ul>
+      <li>Corrected display of right-hand side of primary keys.</li>
+      <li>Bug 396 Upload of backslash to MySQL corrected by using sql_mode NO_BACKSLASH_ESCAPES.</li>
+      <li>Bug 397 Parsing has been adapted to new behavior of JAVA's SAX parsers.</li>
+    </ul>
+    <h2>Release 1.69</h2>
+    <p>In Release 1.69 the following changes are implemented:</p>
+    <ul>
+      <li>Pseudo NULL value '0000-00-00' in MySQL dates and timestamps is converted to '9999-12-31', if the column is not nullable. Otherwise they are converted as NULL.</li>
+    </ul>
+    <h2>Release 1.68</h2>
+    <p>In Release 1.68 the following changes are implemented:</p>
+    <ul>
+      <li>1134_1 (Sigve Espeland) corrected: Upload of large character fields in MySQL has been changed to TEXT.</li>
+    </ul>
+    <h2>Release 1.67</h2>
+    <p>In Release 1.67 the following changes are implemented:</p>
+    <ul>
+      <li>1102_5 (Sigve Espeland) corrected: handling of reference entities (&amp;amp; etc.) has been adapted to new behavior of JAVA's SAX parsers.</li>
+    </ul>
+    <h2>Release 1.66</h2>
+    <p>In Release 1.66 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 394 corrected: Failure of upload DECIMAL(30,2) to MS Access.</li>
+    </ul>
+    <h2>Release 1.65</h2>
+    <p>In Release 1.65 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 391 corrected: Failure of upload of empty table.</li>
+      <li>Bug 392 corrected: Incorrect insertion of 0x00 for BLOBs that should be NULL and of ' ' for CLOBs and XMLs that should be NULL on upload.</li>
+    </ul>
+    <h2>Release 1.64</h2>
+    <p>In Release 1.64 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 388 corrected: Missing message digest.</li>
+      <li>Bug 389 corrected: NullPointerException on upload, when message digest is missing.</li>
+    </ul>
+    <h2>Release 1.63</h2>
+    <p>In Release 1.63 the following changes are implemented:</p>
+    <ul>
+      <li>Bug 384 corrected: Before closing the connection to a database a final commit() is now executed.</li>
+      <li>Bug 385 corrected: An error in uploading a database now correctly leads to termination with an error message.</li>
+      <li>The batch commands have been improved slightly, so the irritating error messages are not displayed any more.</li>
+      <li>A new feature: Views now also display a number or records.</li>
+    </ul>
+    <h2>Release 1.62</h2>
+    <p>In Release 1.62 the following changes are implemented:</p>
+    <ul>
+      <li>In addition to user-defined schemas system-defined schemas in DB/2 are now supported correctly.</li>
+      <li>A defect in the DB/2 JDBC driver in determining the columns of a foreign key has been worked around.</li>
+      <li>Italian and French Manuals have been brought up-to-date.</li>
+    </ul>
+    <h2>Release 1.60</h2>
+    <p>In Release 1.60 the following changes are implemented:</p>
+    <ul>
+      <li>Upgraded JDBC Drivers for all database systems.</li>
+      <li>XML data type is supported.</li>
+      <li>DB/2 support has been integrated.</li>
+      <li>Manuals and help texts updated.</li>
+    </ul>
+  </body>
+</html>
