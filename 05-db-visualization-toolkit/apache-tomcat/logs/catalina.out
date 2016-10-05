@@ -1,0 +1,162 @@
+05-Oct-2016 14:02:28.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.4
+05-Oct-2016 14:02:28.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 6 2016 08:43:30 UTC
+05-Oct-2016 14:02:28.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.4.0
+05-Oct-2016 14:02:28.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Oct-2016 14:02:28.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+05-Oct-2016 14:02:28.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Oct-2016 14:02:28.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/jre/mac
+05-Oct-2016 14:02:28.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_112-release-b343
+05-Oct-2016 14:02:28.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            JetBrains s.r.o
+05-Oct-2016 14:02:28.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat
+05-Oct-2016 14:02:28.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat
+05-Oct-2016 14:02:28.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/conf/logging.properties
+05-Oct-2016 14:02:28.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Oct-2016 14:02:28.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Oct-2016 14:02:28.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat
+05-Oct-2016 14:02:28.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat
+05-Oct-2016 14:02:28.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/temp
+05-Oct-2016 14:02:28.430 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Chalkos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Oct-2016 14:02:28.541 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Oct-2016 14:02:28.570 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Oct-2016 14:02:28.573 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Oct-2016 14:02:28.575 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Oct-2016 14:02:28.575 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 611 ms
+05-Oct-2016 14:02:28.598 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Oct-2016 14:02:28.598 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.4
+05-Oct-2016 14:02:28.608 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT
+05-Oct-2016 14:02:33.375 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-10-05 14:02:35,317 [localhost-startStop-1] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/
+2016-10-05 14:02:35,573 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file logback.xml in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner TypeAnnotationsScanner
+2016-10-05 14:02:35,578 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file logback.xml in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner SubTypesScanner
+2016-10-05 14:02:35,579 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file config/i18n/I18N.gwt.xml in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner TypeAnnotationsScanner
+2016-10-05 14:02:35,579 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file config/i18n/I18N.gwt.xml in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner SubTypesScanner
+2016-10-05 14:02:35,580 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file config/i18n/client/ClientMessages.properties in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner TypeAnnotationsScanner
+2016-10-05 14:02:35,580 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file config/i18n/client/ClientMessages.properties in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner SubTypesScanner
+2016-10-05 14:02:35,931 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file com/databasepreservation/visualization/public/roda_main.css in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner TypeAnnotationsScanner
+2016-10-05 14:02:35,931 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file com/databasepreservation/visualization/public/roda_main.css in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner SubTypesScanner
+2016-10-05 14:02:35,932 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file com/databasepreservation/visualization/public/main.css in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner TypeAnnotationsScanner
+2016-10-05 14:02:35,932 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file com/databasepreservation/visualization/public/main.css in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner SubTypesScanner
+2016-10-05 14:02:35,935 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file com/databasepreservation/visualization/dbvtkviewer.gwt.xml in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner TypeAnnotationsScanner
+2016-10-05 14:02:35,935 [localhost-startStop-1] DEBUG org.reflections.Reflections - could not scan file com/databasepreservation/visualization/dbvtkviewer.gwt.xml in url file:/Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT/WEB-INF/classes/ with scanner SubTypesScanner
+2016-10-05 14:02:35,983 [localhost-startStop-1] INFO  org.reflections.Reflections - Reflections took 621 ms to scan 1 urls, producing 386 keys and 611 values 
+2016-10-05 14:02:36,203 [localhost-startStop-1] DEBUG i.s.jaxrs.ext.SwaggerExtensions - adding extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,233 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty class java.lang.String
+2016-10-05 14:02:36,233 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,255 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - getParameters for [simple type, class java.lang.String]
+2016-10-05 14:02:36,255 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - trying extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,257 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,257 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - Can't check class [simple type, class java.lang.String], java.lang.String
+2016-10-05 14:02:36,257 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,267 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - getParameters for [simple type, class java.lang.String]
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - trying extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - Can't check class [simple type, class java.lang.String], java.lang.String
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - getParameters for [simple type, class java.lang.String]
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - trying extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - Can't check class [simple type, class java.lang.String], java.lang.String
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - getParameters for [simple type, class java.lang.Integer]
+2016-10-05 14:02:36,268 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - trying extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,269 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class java.lang.Integer]
+2016-10-05 14:02:36,269 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - Can't check class [simple type, class java.lang.Integer], java.lang.Integer
+2016-10-05 14:02:36,269 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.Integer]
+2016-10-05 14:02:36,281 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty class java.lang.String
+2016-10-05 14:02:36,282 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,286 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - getParameters for [simple type, class java.lang.String]
+2016-10-05 14:02:36,287 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - trying extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,287 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,288 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - Can't check class [simple type, class java.lang.String], java.lang.String
+2016-10-05 14:02:36,288 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,288 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - getParameters for [simple type, class java.lang.String]
+2016-10-05 14:02:36,288 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - trying extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,288 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,288 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - Can't check class [simple type, class java.lang.String], java.lang.String
+2016-10-05 14:02:36,288 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,288 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - getParameters for [simple type, class java.lang.String]
+2016-10-05 14:02:36,288 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - trying extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - Can't check class [simple type, class java.lang.String], java.lang.String
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - getParameters for [simple type, class java.lang.String]
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - trying extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - Can't check class [simple type, class java.lang.String], java.lang.String
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - getParameters for [simple type, class java.lang.String]
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - trying extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,289 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,290 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - Can't check class [simple type, class java.lang.String], java.lang.String
+2016-10-05 14:02:36,290 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,290 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - getParameters for [simple type, class java.lang.String]
+2016-10-05 14:02:36,290 [localhost-startStop-1] DEBUG io.swagger.jaxrs.Reader - trying extension io.swagger.jersey.SwaggerJersey2Jaxrs@3ba178bd
+2016-10-05 14:02:36,290 [localhost-startStop-1] DEBUG i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class java.lang.String]
+2016-10-05 14:02:36,290 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - Can't check class [simple type, class java.lang.String], java.lang.String
+2016-10-05 14:02:36,290 [localhost-startStop-1] DEBUG io.swagger.jackson.ModelResolver - resolveProperty [simple type, class java.lang.String]
+05-Oct-2016 14:02:36.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/Chalkos/KEEPS/iPRES/ipres16-db-preservation-pack/05-db-visualization-toolkit/apache-tomcat/webapps/ROOT has finished in 8,325 ms
+05-Oct-2016 14:02:36.938 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+05-Oct-2016 14:02:36.947 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+05-Oct-2016 14:02:36.947 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8371 ms
+2016-10-05 14:02:39,891 [http-nio-8080-exec-4] DEBUG org.apache.http.headers - >> GET /solr/dbv-database/get?qt=%2Fget&ids=c5c581bc-08b9-4e4a-8c06-8f3df808fb20&wt=javabin&version=2 HTTP/1.1
+2016-10-05 14:02:39,892 [http-nio-8080-exec-3] DEBUG org.apache.http.headers - >> GET /solr/dbv-database/get?qt=%2Fget&ids=c5c581bc-08b9-4e4a-8c06-8f3df808fb20&wt=javabin&version=2 HTTP/1.1
+2016-10-05 14:02:39,892 [http-nio-8080-exec-2] DEBUG org.apache.http.headers - >> GET /solr/dbv-database/get?qt=%2Fget&ids=c5c581bc-08b9-4e4a-8c06-8f3df808fb20&wt=javabin&version=2 HTTP/1.1
+2016-10-05 14:02:39,892 [http-nio-8080-exec-4] DEBUG org.apache.http.headers - >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrClient] 1.0
+2016-10-05 14:02:39,892 [http-nio-8080-exec-3] DEBUG org.apache.http.headers - >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrClient] 1.0
+2016-10-05 14:02:39,892 [http-nio-8080-exec-2] DEBUG org.apache.http.headers - >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrClient] 1.0
+2016-10-05 14:02:39,892 [http-nio-8080-exec-4] DEBUG org.apache.http.headers - >> Host: 127.0.0.1:8983
+2016-10-05 14:02:39,892 [http-nio-8080-exec-3] DEBUG org.apache.http.headers - >> Host: 127.0.0.1:8983
+2016-10-05 14:02:39,892 [http-nio-8080-exec-2] DEBUG org.apache.http.headers - >> Host: 127.0.0.1:8983
+2016-10-05 14:02:39,893 [http-nio-8080-exec-4] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2016-10-05 14:02:39,893 [http-nio-8080-exec-3] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2016-10-05 14:02:39,893 [http-nio-8080-exec-2] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2016-10-05 14:02:39,972 [http-nio-8080-exec-3] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2016-10-05 14:02:39,972 [http-nio-8080-exec-3] DEBUG org.apache.http.headers - << Content-Type: application/octet-stream
+2016-10-05 14:02:39,972 [http-nio-8080-exec-3] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2016-10-05 14:02:39,973 [http-nio-8080-exec-2] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2016-10-05 14:02:39,973 [http-nio-8080-exec-2] DEBUG org.apache.http.headers - << Content-Type: application/octet-stream
+2016-10-05 14:02:39,973 [http-nio-8080-exec-2] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2016-10-05 14:02:39,973 [http-nio-8080-exec-4] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2016-10-05 14:02:39,973 [http-nio-8080-exec-4] DEBUG org.apache.http.headers - << Content-Type: application/octet-stream
+2016-10-05 14:02:39,973 [http-nio-8080-exec-4] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2016-10-05 14:02:40,278 [http-nio-8080-exec-5] DEBUG org.apache.http.headers - >> GET /solr/dbv-searches/select?q=%28database_uuid%3A+%28c5c581bc-08b9-4e4a-8c06-8f3df808fb20%29%29&start=0&rows=20&wt=javabin&version=2 HTTP/1.1
+2016-10-05 14:02:40,279 [http-nio-8080-exec-5] DEBUG org.apache.http.headers - >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrClient] 1.0
+2016-10-05 14:02:40,279 [http-nio-8080-exec-5] DEBUG org.apache.http.headers - >> Host: 127.0.0.1:8983
+2016-10-05 14:02:40,279 [http-nio-8080-exec-5] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2016-10-05 14:02:40,328 [http-nio-8080-exec-5] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2016-10-05 14:02:40,328 [http-nio-8080-exec-5] DEBUG org.apache.http.headers - << Content-Type: application/octet-stream
+2016-10-05 14:02:40,328 [http-nio-8080-exec-5] DEBUG org.apache.http.headers - << Content-Length: 1204
+2016-10-05 14:02:43,451 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> POST /solr/dbv-searches/update?wt=javabin&version=2 HTTP/1.1
+2016-10-05 14:02:43,451 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrClient] 1.0
+2016-10-05 14:02:43,451 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> Content-Length: 81
+2016-10-05 14:02:43,451 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> Content-Type: application/javabin
+2016-10-05 14:02:43,451 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> Host: 127.0.0.1:8983
+2016-10-05 14:02:43,451 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2016-10-05 14:02:43,479 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2016-10-05 14:02:43,480 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - << Content-Type: application/octet-stream
+2016-10-05 14:02:43,480 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - << Content-Length: 41
+2016-10-05 14:02:43,485 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> POST /solr/dbv-searches/update HTTP/1.1
+2016-10-05 14:02:43,485 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-10-05 14:02:43,485 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrClient] 1.0
+2016-10-05 14:02:43,485 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> Content-Length: 67
+2016-10-05 14:02:43,485 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> Host: 127.0.0.1:8983
+2016-10-05 14:02:43,485 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2016-10-05 14:02:43,509 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2016-10-05 14:02:43,509 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - << Content-Type: application/octet-stream
+2016-10-05 14:02:43,509 [http-nio-8080-exec-6] DEBUG org.apache.http.headers - << Content-Length: 41
+2016-10-05 14:02:43,522 [http-nio-8080-exec-7] DEBUG org.apache.http.headers - >> GET /solr/dbv-searches/select?q=%28database_uuid%3A+%28c5c581bc-08b9-4e4a-8c06-8f3df808fb20%29%29&start=0&rows=20&wt=javabin&version=2 HTTP/1.1
+2016-10-05 14:02:43,522 [http-nio-8080-exec-7] DEBUG org.apache.http.headers - >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrClient] 1.0
+2016-10-05 14:02:43,522 [http-nio-8080-exec-7] DEBUG org.apache.http.headers - >> Host: 127.0.0.1:8983
+2016-10-05 14:02:43,522 [http-nio-8080-exec-7] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2016-10-05 14:02:43,525 [http-nio-8080-exec-7] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2016-10-05 14:02:43,525 [http-nio-8080-exec-7] DEBUG org.apache.http.headers - << Content-Type: application/octet-stream
+2016-10-05 14:02:43,525 [http-nio-8080-exec-7] DEBUG org.apache.http.headers - << Content-Length: 180
+05-Oct-2016 14:02:55.017 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Oct-2016 14:02:55.018 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Oct-2016 14:02:55.069 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Oct-2016 14:02:55.125 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Oct-2016 14:02:55.170 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Oct-2016 14:02:55.172 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Oct-2016 14:02:55.173 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Oct-2016 14:02:55.173 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
