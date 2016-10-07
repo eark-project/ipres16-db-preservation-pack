@@ -1,2 +1,0 @@
-serviceClass: com.databasepreservation.visualization.client.BrowserService
-path: 9D1DA712020CD701A6E115AA34BF50E9.gwt.rpc
