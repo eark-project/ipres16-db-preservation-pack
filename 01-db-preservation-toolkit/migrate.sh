@@ -15,8 +15,8 @@ if [ "$1" = "" ]; then
   echo Example: migrate.bat 192.168.3.1
 else
   if [ "$(uname -s)" = "Darwin" ]; then
-    ../02-db-visualization-toolkit/jre/mac/bin/java -Dfile.encoding=UTF-8 -jar dbptk-app.jar --import=mysql --import-hostname="$1" --import-database=sakila -ide --import-username=dlm --import-password=dlm --export=siard-2 --export-pretty-xml --export-file=sakila-siard2.siard
+    ../03-db-visualization-toolkit/jre/mac/bin/java -Dfile.encoding=UTF-8 -jar dbptk-app.jar --import=mysql --import-hostname="$1" --import-database=sakila -ide --import-username=dlm --import-password=dlm --export=siard-2 --export-pretty-xml --export-file=sakila-siard2.siard
   else
-    ../02-db-visualization-toolkit/jre/linux/bin/java -Dfile.encoding=UTF-8 -jar dbptk-app.jar --import=mysql --import-hostname="$1" --import-database=sakila -ide --import-username=dlm --import-password=dlm --export=siard-2 --export-pretty-xml --export-file=sakila-siard2.siard
+    ../03-db-visualization-toolkit/jre/linux/bin/java -Dfile.encoding=UTF-8 -jar dbptk-app.jar --import=mysql --import-hostname="$1" --import-database=sakila -ide --import-username=dlm --import-password=dlm --export=siard-2 --export-pretty-xml --export-file=sakila-siard2.siard
   fi
 fi
