@@ -13,6 +13,6 @@ pause
 
 ) ELSE (
 
-..\05-db-visualization-toolkit\jre\windows\bin\java.exe "-Dfile.encoding=UTF-8" -jar dbptk-app.jar --import=mysql --import-hostname=%1 --import-database=sakila --import-username=ipres --import-password=ipres --export=siard-2 --export-pretty-xml --export-file=sakila-siard2.siard
+..\02-db-visualization-toolkit\jre\windows\bin\java.exe "-Dfile.encoding=UTF-8" -jar dbptk-app.jar --import=mysql --import-hostname=%1 --import-database=sakila --import-username=ipres --import-password=ipres --export=siard-2 --export-pretty-xml --export-file=sakila-siard2.siard
 
 )
