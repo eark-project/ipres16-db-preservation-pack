@@ -1,0 +1,2 @@
+serviceClass: com.databasepreservation.visualization.client.BrowserService
+path: 2CAA53EEA953227F7E34A45DE46D0E2A.gwt.rpc

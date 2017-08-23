@@ -24,9 +24,3 @@ chmod +x apache-tomcat/bin/catalina.sh
 # start
 solr/bin/solr start -c
 apache-tomcat/bin/startup.sh
-
-# provide instructions
-echo "The Database Visualization Toolkit will be available at: http://127.0.0.1:8080"
-echo
-echo "To add databases use the following command:"
-echo "$JAVA_HOME/bin/java -jar \"-Dfile.encoding=UTF-8\" \"-Ddbvtk.workspace=$DBVTK_WORKSPACE\" \"$DIR/$DBPTK\" -e solr -i siard-2 -if path/to/siard_2/file"

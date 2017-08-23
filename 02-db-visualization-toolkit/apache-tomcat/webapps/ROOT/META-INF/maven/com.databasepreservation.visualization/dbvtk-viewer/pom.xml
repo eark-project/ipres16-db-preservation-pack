@@ -7,12 +7,12 @@
     <modelVersion>4.0.0</modelVersion>
     <name>dbvtk-viewer</name>
     <artifactId>dbvtk-viewer</artifactId>
-    <version>0.1.1</version>
+    <version>1.0.1</version>
     <packaging>war</packaging>
     <parent>
         <groupId>com.databasepreservation.visualization</groupId>
         <artifactId>dbvtk</artifactId>
-        <version>0.1.1</version>
+        <version>1.0.1</version>
         <relativePath>..</relativePath>
     </parent>
 
@@ -21,14 +21,19 @@
         <dependency>
             <groupId>com.databasepreservation.visualization</groupId>
             <artifactId>dbvtk-model</artifactId>
-            <classifier>sources</classifier>
         </dependency>
-
         <dependency>
-            <groupId>com.github.nmorel.gwtjackson</groupId>
-            <artifactId>gwt-jackson</artifactId>
-            <version>0.13.0</version>
-            <scope>provided</scope>
+            <groupId>com.databasepreservation</groupId>
+            <artifactId>dbptk-module-siard</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.databasepreservation</groupId>
+            <artifactId>dbptk-module-solr</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.databasepreservation.visualization</groupId>
+            <artifactId>dbvtk-model</artifactId>
+            <classifier>sources</classifier>
         </dependency>
 
         <!-- gwt -->
@@ -54,6 +59,11 @@
         <dependency>
             <groupId>com.tractionsoftware</groupId>
             <artifactId>gwt-traction</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.nmorel.gwtjackson</groupId>
+            <artifactId>gwt-jackson</artifactId>
+            <scope>provided</scope>
         </dependency>
 
         <!-- REST API related dependencies - start -->
@@ -122,6 +132,39 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jasig.cas.client</groupId>
+            <artifactId>cas-client-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.directory.server</groupId>
+            <artifactId>apacheds-all</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.roda-project</groupId>
+            <artifactId>roda-common-utils</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.roda-project</groupId>
+            <artifactId>roda-common-data</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.roda-project</groupId>
+            <artifactId>roda-common-data</artifactId>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.w3c</groupId>
+            <artifactId>w3c-utils</artifactId>
+        </dependency>
 
         <!-- testing -->
         <dependency>
@@ -131,14 +174,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.roda-project</groupId>
-            <artifactId>roda-common-data</artifactId>
-            <classifier>sources</classifier>
-        </dependency>
-        <dependency>
-            <groupId>com.databasepreservation.visualization</groupId>
-            <artifactId>dbvtk-model</artifactId>
-            <version>0.1.1</version>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
     </dependencies>
 
@@ -152,7 +190,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>gwt-maven-plugin</artifactId>
-                <version>2.7.0</version>
+                <version>${gwtVersion}</version>
                 <executions>
                     <execution>
                         <goals>
@@ -165,10 +203,15 @@
                   gwt-maven-plugin documentation at codehaus.org -->
                 <configuration>
                     <runTarget>index.html</runTarget>
+                    <sourceLevel>1.7</sourceLevel>
                     <modules>
                         <module>com.databasepreservation.visualization.dbvtkviewer</module>
                     </modules>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>pl.project13.maven</groupId>
+                <artifactId>git-commit-id-plugin</artifactId>
             </plugin>
         </plugins>
     </build>

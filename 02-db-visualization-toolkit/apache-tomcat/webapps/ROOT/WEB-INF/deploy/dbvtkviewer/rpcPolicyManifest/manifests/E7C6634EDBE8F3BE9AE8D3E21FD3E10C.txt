@@ -1,0 +1,2 @@
+serviceClass: com.databasepreservation.visualization.shared.client.ClientLoggerService
+path: F01A82522E27AFC9E966A43B97FCD14C.gwt.rpc
