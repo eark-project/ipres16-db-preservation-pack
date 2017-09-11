@@ -1,4 +1,0 @@
-# Module dbvtkviewer
-# RPC service class, partial path of RPC policy file
-com.databasepreservation.visualization.shared.client.ClientLoggerService, F01A82522E27AFC9E966A43B97FCD14C.gwt.rpc
-com.databasepreservation.visualization.client.BrowserService, 2CAA53EEA953227F7E34A45DE46D0E2A.gwt.rpc
